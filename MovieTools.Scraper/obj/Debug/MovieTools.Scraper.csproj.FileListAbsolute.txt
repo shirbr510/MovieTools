@@ -1,0 +1,6 @@
+c:\users\shir\documents\visual studio 2013\Projects\MovieTools\MovieTools.Scraper\bin\Debug\MovieTools.Scraper.exe.config
+c:\users\shir\documents\visual studio 2013\Projects\MovieTools\MovieTools.Scraper\bin\Debug\MovieTools.Scraper.exe
+c:\users\shir\documents\visual studio 2013\Projects\MovieTools\MovieTools.Scraper\bin\Debug\MovieTools.Scraper.pdb
+c:\users\shir\documents\visual studio 2013\Projects\MovieTools\MovieTools.Scraper\obj\Debug\MovieTools.Scraper.csprojResolveAssemblyReference.cache
+c:\users\shir\documents\visual studio 2013\Projects\MovieTools\MovieTools.Scraper\obj\Debug\MovieTools.Scraper.exe
+c:\users\shir\documents\visual studio 2013\Projects\MovieTools\MovieTools.Scraper\obj\Debug\MovieTools.Scraper.pdb
