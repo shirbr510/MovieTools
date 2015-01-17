@@ -2,13 +2,10 @@
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace MovieTools.Scraper
+namespace MovieTools.Common.Data
 {
     public struct MovieFileData
     {
-        private static readonly char[] PaddingChars = {'.', '_', '-'};
-
-        public static string[] ValidMovieExtensions = { ".webm", ".mp4", ".wmv", ".mkv", ".flv", ".avi" };
 
         public string Name { get; set; }
 
@@ -65,7 +62,7 @@ namespace MovieTools.Scraper
         private static string PaddingRemover(string value)
         {
             var str = value;
-            foreach (var paddingChar in PaddingChars)
+            foreach (var paddingChar in FileConsts.PaddingChars)
             {
                 var escapeCharacter = Regex.Escape(paddingChar.ToString(CultureInfo.InvariantCulture));
                 str = Regex.Replace(str, escapeCharacter, " ");

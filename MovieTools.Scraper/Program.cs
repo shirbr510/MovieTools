@@ -3,6 +3,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
+using MovieTools.Common.Data;
 
 namespace MovieTools.Scraper
 {
@@ -21,7 +22,7 @@ namespace MovieTools.Scraper
             {
                 foreach (
                     var file in
-                        dirInfo.GetFiles().Where(fileInfo => MovieFileData.ValidMovieExtensions.Contains(fileInfo.Extension)))
+                        dirInfo.GetFiles().Where(fileInfo => FileConsts.ValidMovieExtensions.Contains(fileInfo.Extension)))
                 {
                     Console.WriteLine(file.Name);
                     var data = MovieFileData.Parse(file.Name);
