@@ -41,7 +41,13 @@
   <ItemGroup>
     <Compile Include="Data\FileConsts.cs" />
     <Compile Include="Data\MovieFileData.cs" />
+    <Compile Include="Data\PlotLength.cs" />
+    <Compile Include="Data\VideoType.cs" />
+    <Compile Include="Exceptions\MovieNotFoundException.cs" />
+    <Compile Include="Extensions\WebResponseExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\MovieRequestData.cs" />
+    <Compile Include="Web\MovieResponseData.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

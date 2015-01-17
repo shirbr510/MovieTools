@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MovieTools.Scraper")]
+[assembly: AssemblyTitle("MovieTools.GenreSorter")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MovieTools.Scraper")]
+[assembly: AssemblyProduct("MovieTools.GenreSorter")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7946f4d5-9e90-446a-8876-50b801154596")]
+[assembly: Guid("d9d52890-0696-40d6-957f-bb246411ebf4")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -1,21 +1,20 @@
 ﻿using System;
-using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text.RegularExpressions;
 using MovieTools.Common.Data;
 
 namespace MovieTools.Scraper
 {
     class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             DoStuff();
         }
 
         private static void DoStuff()
         {
+            var scraper = new FileScraper();
             const string dirPath = @"F:\Movies\A - Z";
             var rootDir = new DirectoryInfo(dirPath);
             foreach (var dirInfo in rootDir.GetDirectories())
@@ -25,7 +24,7 @@ namespace MovieTools.Scraper
                         dirInfo.GetFiles().Where(fileInfo => FileConsts.ValidMovieExtensions.Contains(fileInfo.Extension)))
                 {
                     Console.WriteLine(file.Name);
-                    var data = MovieFileData.Parse(file.Name);
+                    var data = scraper.Scrape(file);
                     Console.WriteLine(data.ToDirectoryPath());
                     Console.WriteLine(data.ToFilePath());
                 }

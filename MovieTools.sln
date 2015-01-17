@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTools.Scraper", "Movie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTools.Common", "MovieTools.Common\MovieTools.Common.csproj", "{6A02A1DF-9C3C-4A80-945C-0696B2E5EE17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTools.GenreSorter", "MovieTools.GenreSorter\MovieTools.GenreSorter.csproj", "{61001C1D-7CDA-43E3-85AC-E76E95622576}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6A02A1DF-9C3C-4A80-945C-0696B2E5EE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A02A1DF-9C3C-4A80-945C-0696B2E5EE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A02A1DF-9C3C-4A80-945C-0696B2E5EE17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61001C1D-7CDA-43E3-85AC-E76E95622576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61001C1D-7CDA-43E3-85AC-E76E95622576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61001C1D-7CDA-43E3-85AC-E76E95622576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61001C1D-7CDA-43E3-85AC-E76E95622576}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
