@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,10 +47,16 @@
     <Compile Include="Data\PlotLength.cs" />
     <Compile Include="Data\VideoType.cs" />
     <Compile Include="Exceptions\MovieNotFoundException.cs" />
+    <Compile Include="Extensions\DirectoryInfoExtensions.cs" />
     <Compile Include="Extensions\WebResponseExtensions.cs" />
+    <Compile Include="Logging\MovieLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Web\MovieRequestData.cs" />
     <Compile Include="Web\MovieResponseData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="log4net.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
