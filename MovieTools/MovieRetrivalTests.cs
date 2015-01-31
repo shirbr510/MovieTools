@@ -1,4 +1,5 @@
-﻿using MovieTools.GenreSorter;
+﻿using MovieTools.GenreLister;
+using MovieTools.GenreLister.Providers;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;

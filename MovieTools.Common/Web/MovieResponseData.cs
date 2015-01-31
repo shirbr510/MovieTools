@@ -31,11 +31,11 @@ namespace MovieTools.Common.Web
 
         public string Awards { get; set; }
 
-        public Uri Poster { get; set; }
+        public string Poster { get; set; }
 
-        public short Metascore { get; set; }
+        public string Metascore { get; set; }
 
-        public float imdbRating { get; set; }
+        public string imdbRating { get; set; }
         public string imdbVotes { get; set; }
         public string imdbID { get; set; }
         public string Type { get; set; }

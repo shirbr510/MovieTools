@@ -46,6 +46,7 @@
     <Compile Include="Data\MovieFileData.cs" />
     <Compile Include="Data\PlotLength.cs" />
     <Compile Include="Data\VideoType.cs" />
+    <Compile Include="Exceptions\MissingMovieInformationException.cs" />
     <Compile Include="Exceptions\MovieNotFoundException.cs" />
     <Compile Include="Extensions\DirectoryInfoExtensions.cs" />
     <Compile Include="Extensions\WebResponseExtensions.cs" />

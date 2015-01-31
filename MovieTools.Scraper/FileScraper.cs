@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
 using MovieTools.Common.Data;
 
@@ -40,12 +41,10 @@ namespace MovieTools.Scraper
 
         private static string PaddingRemover(string value)
         {
-            var str = value;
-            foreach (var paddingChar in FileConsts.PaddingChars)
-            {
-                var escapeCharacter = Regex.Escape(paddingChar.ToString(CultureInfo.InvariantCulture));
-                str = Regex.Replace(str, escapeCharacter, " ");
-            }
+            var str =
+                FileConsts.PaddingChars.Select(
+                    paddingChar => Regex.Escape(paddingChar.ToString(CultureInfo.InvariantCulture)))
+                    .Aggregate(value, (current, escapeCharacter) => Regex.Replace(current, escapeCharacter, " "));
             return string.Join(" ", str.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries));
         }
     }

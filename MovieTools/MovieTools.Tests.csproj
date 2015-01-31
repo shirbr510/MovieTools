@@ -50,6 +50,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DirecotryExtensionsTests.cs" />
+    <Compile Include="MovieGenereTests.cs" />
     <Compile Include="MovieRetrivalTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SortingTests.cs" />
@@ -62,9 +63,9 @@
       <Project>{6a02a1df-9c3c-4a80-945c-0696b2e5ee17}</Project>
       <Name>MovieTools.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MovieTools.GenreSorter\MovieTools.GenreSorter.csproj">
+    <ProjectReference Include="..\MovieTools.GenreSorter\MovieTools.GenreLister.csproj">
       <Project>{61001c1d-7cda-43e3-85ac-e76e95622576}</Project>
-      <Name>MovieTools.GenreSorter</Name>
+      <Name>MovieTools.GenreLister</Name>
     </ProjectReference>
     <ProjectReference Include="..\MovieTools.Scraper\MovieTools.Scraper.csproj">
       <Project>{f7fc45f2-c0a3-4038-94d4-5875329849ac}</Project>
