@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTools.Scraper", "MovieTools.Scraper\MovieTools.Scraper.csproj", "{F7FC45F2-C0A3-4038-94D4-5875329849AC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTools.Common", "MovieTools.Common\MovieTools.Common.csproj", "{6A02A1DF-9C3C-4A80-945C-0696B2E5EE17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTools.GenreLister", "MovieTools.GenreSorter\MovieTools.GenreLister.csproj", "{61001C1D-7CDA-43E3-85AC-E76E95622576}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTools", "MovieTools\MovieTools.csproj", "{7FC29F9C-BC2B-4E92-BAB8-5FA37624094F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTools.Tests", "MovieTools\MovieTools.Tests.csproj", "{98B3B03B-F016-4B0B-BAC6-96F302416175}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTools.Tests", "MovieTools.Tests\MovieTools.Tests.csproj", "{EA542E3F-1469-4EBF-B216-1CD64667DB0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,22 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F7FC45F2-C0A3-4038-94D4-5875329849AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7FC45F2-C0A3-4038-94D4-5875329849AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7FC45F2-C0A3-4038-94D4-5875329849AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7FC45F2-C0A3-4038-94D4-5875329849AC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6A02A1DF-9C3C-4A80-945C-0696B2E5EE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6A02A1DF-9C3C-4A80-945C-0696B2E5EE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A02A1DF-9C3C-4A80-945C-0696B2E5EE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A02A1DF-9C3C-4A80-945C-0696B2E5EE17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{61001C1D-7CDA-43E3-85AC-E76E95622576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61001C1D-7CDA-43E3-85AC-E76E95622576}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61001C1D-7CDA-43E3-85AC-E76E95622576}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61001C1D-7CDA-43E3-85AC-E76E95622576}.Release|Any CPU.Build.0 = Release|Any CPU
-		{98B3B03B-F016-4B0B-BAC6-96F302416175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98B3B03B-F016-4B0B-BAC6-96F302416175}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98B3B03B-F016-4B0B-BAC6-96F302416175}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98B3B03B-F016-4B0B-BAC6-96F302416175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC29F9C-BC2B-4E92-BAB8-5FA37624094F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC29F9C-BC2B-4E92-BAB8-5FA37624094F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC29F9C-BC2B-4E92-BAB8-5FA37624094F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC29F9C-BC2B-4E92-BAB8-5FA37624094F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA542E3F-1469-4EBF-B216-1CD64667DB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA542E3F-1469-4EBF-B216-1CD64667DB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA542E3F-1469-4EBF-B216-1CD64667DB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA542E3F-1469-4EBF-B216-1CD64667DB0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

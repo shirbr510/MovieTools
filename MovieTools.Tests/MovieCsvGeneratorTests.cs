@@ -1,11 +1,11 @@
 ﻿using System;
-using MovieTools.GenreLister.Factories;
+using MovieTools.IO;
 using NUnit.Framework;
 
 namespace MovieTools.Tests
 {
     [TestFixture]
-    public class MovieGenereTests
+    public class MovieCsvGeneratorTests
     {
         [Test]
         public void GenerateCsv()

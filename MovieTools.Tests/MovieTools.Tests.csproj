@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{98B3B03B-F016-4B0B-BAC6-96F302416175}</ProjectGuid>
+    <ProjectGuid>{EA542E3F-1469-4EBF-B216-1CD64667DB0A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MovieTools.Tests</RootNamespace>
@@ -50,26 +50,22 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DirecotryExtensionsTests.cs" />
-    <Compile Include="MovieGenereTests.cs" />
+    <Compile Include="MovieCsvGeneratorTests.cs" />
     <Compile Include="MovieRetrivalTests.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SortingTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MovieTools.Common\MovieTools.Common.csproj">
-      <Project>{6a02a1df-9c3c-4a80-945c-0696b2e5ee17}</Project>
+      <Project>{6A02A1DF-9C3C-4A80-945C-0696B2E5EE17}</Project>
       <Name>MovieTools.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MovieTools.GenreSorter\MovieTools.GenreLister.csproj">
-      <Project>{61001c1d-7cda-43e3-85ac-e76e95622576}</Project>
-      <Name>MovieTools.GenreLister</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MovieTools.Scraper\MovieTools.Scraper.csproj">
-      <Project>{f7fc45f2-c0a3-4038-94d4-5875329849ac}</Project>
-      <Name>MovieTools.Scraper</Name>
+    <ProjectReference Include="..\MovieTools\MovieTools.csproj">
+      <Project>{7FC29F9C-BC2B-4E92-BAB8-5FA37624094F}</Project>
+      <Name>MovieTools</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

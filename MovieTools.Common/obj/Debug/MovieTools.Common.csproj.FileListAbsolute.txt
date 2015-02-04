@@ -1,7 +1,7 @@
 C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Common\bin\Debug\MovieTools.Common.dll
 C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Common\bin\Debug\MovieTools.Common.pdb
+C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Common\bin\Debug\log4net.dll
+C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Common\bin\Debug\log4net.xml
 C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Common\obj\Debug\MovieTools.Common.csprojResolveAssemblyReference.cache
 C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Common\obj\Debug\MovieTools.Common.dll
 C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Common\obj\Debug\MovieTools.Common.pdb
-C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Common\bin\Debug\log4net.dll
-C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Common\bin\Debug\log4net.xml

@@ -1,4 +1,4 @@
-﻿using MovieTools.Scraper;
+﻿using MovieTools.Scraping;
 using NUnit.Framework;
 
 namespace MovieTools.Tests
@@ -9,7 +9,7 @@ namespace MovieTools.Tests
         [Test]
         public void SortAll()
         {
-            var directoryTreeFormatter = new DirectoryTreeFormatter(@"F:\Movies\A - Z");
+            var directoryTreeFormatter = new DirectoryTreeFormatter(@"E:\Video\Movies\A - Z");
             directoryTreeFormatter.Folderize();
         }
     }

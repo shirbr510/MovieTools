@@ -4,13 +4,13 @@ c:\users\shir\documents\visual studio 2013\Projects\MovieTools\MovieTools.Scrape
 c:\users\shir\documents\visual studio 2013\Projects\MovieTools\MovieTools.Scraper\obj\Debug\MovieTools.Scraper.csprojResolveAssemblyReference.cache
 c:\users\shir\documents\visual studio 2013\Projects\MovieTools\MovieTools.Scraper\obj\Debug\MovieTools.Scraper.exe
 c:\users\shir\documents\visual studio 2013\Projects\MovieTools\MovieTools.Scraper\obj\Debug\MovieTools.Scraper.pdb
-C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\obj\Debug\MovieTools.Scraper.pdb
-C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\obj\Debug\MovieTools.Scraper.csprojResolveAssemblyReference.cache
-C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\MovieTools.Scraper.pdb
-C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\MovieTools.Common.dll
-C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\MovieTools.Common.pdb
-C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\log4net.dll
-C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\log4net.xml
 C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\MovieTools.Scraper.dll.config
 C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\MovieTools.Scraper.dll
+C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\MovieTools.Scraper.pdb
+C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\log4net.dll
+C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\MovieTools.Common.dll
+C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\MovieTools.Common.pdb
+C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\bin\Debug\log4net.xml
+C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\obj\Debug\MovieTools.Scraper.csprojResolveAssemblyReference.cache
 C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\obj\Debug\MovieTools.Scraper.dll
+C:\Users\Shir\Documents\Git\MovieTools\MovieTools.Scraper\obj\Debug\MovieTools.Scraper.pdb

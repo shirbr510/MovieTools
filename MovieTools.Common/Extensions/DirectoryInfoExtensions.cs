@@ -1,10 +1,39 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using MovieTools.Common.Data;
 
 namespace MovieTools.Common.Extensions
 {
     public static class DirectoryInfoExtensions
     {
+
+        public static IEnumerable<FileInfo> GetSpecificMovieTypes(this DirectoryInfo directoryInfo,params string[] extensions)
+        {
+            var validExtensions=GetValidExtensions(extensions);
+            return directoryInfo.GetFiles().Where(fileInfo => validExtensions.Contains(fileInfo.Extension.ToLowerInvariant()));
+        }
+
+        private static IEnumerable<string> GetValidExtensions(params string[] extensions)
+        {
+            foreach (
+                var extension in
+                    extensions.Where(extension => !string.IsNullOrWhiteSpace(extension))
+                        .Select(extension => extension.ToLowerInvariant()))
+            {
+                if (extension[0] != '.')
+                {
+                    yield return '.' + extension;
+                }
+                else
+                {
+                    yield return extension;
+                }
+            }
+        }
+
+        #region Counters
+
         public static int FileCount(this DirectoryInfo directoryInfo, bool fullSubTree = false)
         {
             var count = directoryInfo.GetFiles().Count();
@@ -36,5 +65,8 @@ namespace MovieTools.Common.Extensions
             }
             return count;
         }
+
+        #endregion
+
     }
 }

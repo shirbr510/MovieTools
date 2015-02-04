@@ -1,5 +1,4 @@
-﻿using MovieTools.GenreLister;
-using MovieTools.GenreLister.Providers;
+﻿using MovieTools.IO;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -16,9 +15,9 @@ namespace MovieTools.Tests
         [Test]
         public void GetAllMovies()
         {
-            const string rootDirPath = @"F:\Movies\A - Z";
+            const string rootDirPath = @"E:\Video\Movies\A - Z";
             var movieDirectoryProvider = new MovieDirectoryProvider(rootDirPath);
-            foreach(var dirInfo in movieDirectoryProvider.GetAllSubMovies())
+            foreach (var dirInfo in movieDirectoryProvider.GetAllSubMovies())
             {
                 Console.WriteLine(dirInfo.Name);
             }

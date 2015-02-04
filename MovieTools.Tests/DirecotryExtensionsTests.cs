@@ -16,7 +16,7 @@ namespace MovieTools.Tests
             Console.WriteLine(childCount);
             var subtreeCount = dirInfo.DirectoryCount(true);
             Console.WriteLine(subtreeCount);
-            Assert.That(subtreeCount,Is.GreaterThanOrEqualTo(childCount));
+            Assert.That(subtreeCount, Is.GreaterThanOrEqualTo(childCount));
         }
 
         [Test]

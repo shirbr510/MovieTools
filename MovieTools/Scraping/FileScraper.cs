@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using MovieTools.Common.Data;
 
-namespace MovieTools.Scraper
+namespace MovieTools.Scraping
 {
     public class FileScraper
     {
